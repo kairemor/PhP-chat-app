@@ -1,0 +1,53 @@
+body{
+    font-size: 15px ; 
+    font-family: 'Courier New', Courier, monospace ;
+    margin: 10px ; 
+    padding: 10px ; 
+    background-color: beige; 
+}
+#title{
+    text-decoration-style: dashed ; 
+    text-align: center ;
+    font-style: italic ; 
+    color: blue ;
+}
+.chat{
+    background-color: #43ffde ;
+    width: 70% ;
+    margin-left: 15% ; 
+    margin-right: 15% ;
+}
+.message{
+    width: 80%;
+    margin-left: 10% ; 
+    margin-right: 10% ;
+    background-color: #a3fbde ;
+}
+#author{
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px ;
+    font-weight: bold ; 
+}
+.user-input{
+    width: 50% ; 
+    margin-left: 25% ; 
+    margin-right:25%  ;
+}
+.input{
+    border-radius: 5px ; 
+    width: 80px ;   
+    height: 20px;
+}
+#content{
+    width: 200px ;
+}
+.submit{
+    background-clip: border-box;
+    border-radius: 5px ; 
+    backface-visibility: visible ; 
+    background-clip: padding-box; 
+    background-color: blue ; 
+    width: 50px;
+    height: 25;
+}
